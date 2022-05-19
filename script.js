@@ -106,4 +106,15 @@ console.log(body.nextElementSibling)
 console.log(body.previousSibling) //considera o espaço vazio text
 console.log(body.previousElementSibling)
 
+// Criando e adicionando elementos
+// createElement
+
+const div = document.createElement('div')
+div.innerText = "Olá devs!"
+
+// append prepend
+
+const h1 = document.querySelector('h1')
+h1.prepend(div) // prepend adiciona no inicio e append adiciona no final do atributo
+
 
